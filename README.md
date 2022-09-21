@@ -8,7 +8,7 @@
 
 - Useful if you have many project sources inside your machine which have latest version of php and mariadb/mysql which the old version of orangehrm cannot be installed    with.
 
-- As you know orangehrm is good and has many complex features to be explored by QA automation tester to test their skill in using automation tools
+- As you know orangehrm is a good web application and has many complex features to be explored by QA automation tester to test their skill of using automation tools
 
 ## How to install (easy installation)
 
@@ -21,3 +21,5 @@
 ![App Screenshot](https://github.com/azwanazlan/orangehrm-docker/blob/master/Screenshot%202022-09-21%20175802.png)
 
 for details on how to install: https://www.youtube.com/watch?v=5MbhrApqU-Y&t=225s
+
+
