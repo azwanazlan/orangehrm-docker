@@ -18,6 +18,6 @@
 4. Go to stack section and click orangehrm then you can see there are 2 containers (orangehrm and mariaDB) and make sure their running by clicking start
 5. Go to your browser and go to url {your-IP-address:8181}. and install the orangehrm application and use existing databse. fill username and password according to this yml content. and viola.
 
-https://github.com/azwanazlan/orangehrm-docker/blob/master/Screenshot%202022-09-21%20175802.png
+![App Screenshot](https://github.com/azwanazlan/orangehrm-docker/blob/master/Screenshot%202022-09-21%20175802.png)
 
 for details on how to install: https://www.youtube.com/watch?v=5MbhrApqU-Y&t=225s
