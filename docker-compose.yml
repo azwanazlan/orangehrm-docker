@@ -1,0 +1,28 @@
+version: '2'
+services:
+  mariadb:
+    image: mariadb:10.6
+  
+    environment:
+      - MYSQL_ROOT_PASSWORD=orangehrm
+      - MYSQL_ROOT_USER=root
+      - MYSQL_DATABASE=orangehrm
+      
+  orangehrm:
+    image: orangehrm/orangehrm:4.10.1
+    ports:
+      - 8181:80
+      - 8443:443
+    environment:
+      - ORANGEHRM_DATABASE_HOST=mariadb
+      - ORANGEHRM_DATABASE_USER=root
+      - ORANGEHRM_DATABASE_PASSWORD=orangehrm
+      - ORANGEHRM_DATABASE_NAME=orangehrm
+      - PUID=998
+      - PGID=100
+    volumes:
+      - /srv/:/orangehrm
+    depends_on:
+      - mariadb
+    links:
+      - mariadb:mariadb
