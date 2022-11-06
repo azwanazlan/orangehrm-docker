@@ -15,7 +15,7 @@
 1. Install Docker for Desktop
 2. Install portainer.io (container management application) extension for Docker
 3. Navigate to portainer extension and go to stacks tab ---> add new stack ---> name it as orangehrm ---> copy docker-compose.yml content and paste it into web editor ---> click deploy the stack and wait for a moment for the Docker to build the container
-4. Now there are new orangehrm container exists in your docker. Go to orangehrm 4.10 just click at three dot option and open it with browser. and proceed to the installation of orangehrm
+4. Now there are new orangehrm container exists in your docker. Go to localhost:8181 and proceed to the installation of orangehrm
 
 ![App Screenshot](https://github.com/azwanazlan/orangehrm-docker/blob/master/Screenshot%202022-09-21%20175802.png)
 
