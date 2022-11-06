@@ -13,10 +13,9 @@
 ## How to install (easy installation)
 
 1. Install Docker for Desktop
-2. Install portainer.io (container management application) inside Docker
-3. Login inside portainer and go to stacks tab ---> add new stack ---> name it as orangehrm ---> copy docker-compose.yml content and paste it into web editor ---> click deploy the stack and wait for a moment for the Docker to build the container
-4. Go to stack section and click orangehrm then you can see there are 2 containers (orangehrm and mariaDB) and make sure their running by clicking start
-5. Go to your browser and go to url {your-IP-address:8181}. and install the orangehrm application and use existing databse. fill username and password according to this yml content. and viola.
+2. Install portainer.io (container management application) extension for Docker
+3. Navigate to portainer extension and go to stacks tab ---> add new stack ---> name it as orangehrm ---> copy docker-compose.yml content and paste it into web editor ---> click deploy the stack and wait for a moment for the Docker to build the container
+4. Now there are new orangehrm container exists in your docker. Go to orangehrm 4.10 just click at three dot option and open it with browser. and proceed to the installation of orangehrm
 
 ![App Screenshot](https://github.com/azwanazlan/orangehrm-docker/blob/master/Screenshot%202022-09-21%20175802.png)
 
