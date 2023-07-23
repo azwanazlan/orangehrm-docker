@@ -21,7 +21,7 @@ services:
       - PUID=998
       - PGID=100
     volumes:
-      - /srv/:/orangehrm
+      - .:/orangehrm
     depends_on:
       - mariadb
     links:
